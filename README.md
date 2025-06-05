@@ -1,10 +1,18 @@
 # Zootopia API
 
-A Python script that fetches animal data from the API Ninjas Animals API and generates an HTML page displaying the results.
+This is a Python program that fetches animal data from the API Ninjas Animals API and creates a simple HTML website to display the information.
 
-## 📦 Installation
+## About
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/akshaysic/zootopia-api.git
-   cd zootopia-api
+You can enter an animal name (like "fox" or "lion"), and the program will generate an `animals.html` file showing details like diet and habitat.
+
+If the animal name is not found, the website will show a message saying that the animal does not exist.
+
+## Running the Program
+
+If you are running this in Codio or another new environment, make sure to do the following steps:
+
+### 1. Install Required Libraries
+
+Run this in the terminal to install the packages used by the program:
+
